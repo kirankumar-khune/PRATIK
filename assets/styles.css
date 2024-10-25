@@ -1,0 +1,97 @@
+body { 
+    font-family: 'Roboto', sans-serif; 
+    background: linear-gradient(to bottom left, #4f4f51, #000000); 
+} 
+.header { 
+    background-color: #f8f8f8; 
+    padding: 10px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+} 
+.header img { 
+    height: 50px; 
+} 
+.header nav a { 
+    margin: 0 15px; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: 500; 
+}
+.header .auth-links a { 
+    margin: 0 10px; 
+    text-decoration: none; 
+    color: #333; 
+    font-weight: 500; 
+}
+.main-content { 
+    padding: 40px 20px; 
+    /* background-color: #f0f0f0;  */
+}
+.main-content h1 { 
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px; 
+    color: #ff0808; 
+} 
+.main-content p { 
+    font-size: 1rem; 
+    margin-bottom: 20px; 
+    color: #ccafaf; 
+} 
+.main-content .section-title { 
+    font-size: 2rem; 
+    font-weight: 700; 
+    margin: 40px 0 20px; 
+    color:#ccafaf; 
+}
+.main-content .image-section img { 
+    width: 100%; 
+    max-width: 400px; /* Adjust the max width as needed */
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.main-content .image-section { 
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 40px; 
+}
+.main-content .product-section img { 
+    width: 100%; 
+    max-width: 200px; /* Adjust the max width as needed */
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+} 
+.main-content .product-section { 
+    display: flex; 
+    justify-content: space-between; 
+} 
+.footer { 
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+} 
+.footer p { 
+    margin: 0; 
+} 
+@media (max-width: 768px) { 
+    .main-content h1 { 
+        font-size: 2rem; 
+    } 
+    .main-content .section-title { 
+        font-size: 1.5rem; 
+    } 
+    .main-content .image-section { 
+        flex-direction: column; 
+    }
+    .main-content .image-section img { 
+        width: 100%; 
+        margin-bottom: 20px; 
+    }
+    .main-content .product-section { 
+        flex-direction: column; 
+    } 
+    .main-content .product-section img { 
+        width: 100%; 
+        margin-bottom: 20px; 
+    } 
+} 

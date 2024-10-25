@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>OTP Verification</h3>
+        <div class="otp-inputs">
+            <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+            <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+            <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+            <input type="text" maxlength="1" pattern="\d" inputmode="numeric">
+        </div>
+        <p>Didn't receive the code? <a href="#" class="resend">Resend</a></p>
+        <button type="button" class="verify-btn">Verify</button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
