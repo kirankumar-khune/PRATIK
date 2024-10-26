@@ -1,0 +1,65 @@
+<html>
+<head>
+    <style>
+        body {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .signup-container {
+            text-align: center;
+            color: white;
+        }
+        .signup-container h1 {
+            margin-bottom: 20px;
+        }
+        .signup-container label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        .signup-container input[type="text"],
+        .signup-container input[type="email"],
+        .signup-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-bottom: 1px solid white;
+            background-color: #333;
+            color: white;
+        }
+        .signup-container input[type="submit"] {
+            padding: 10px 20px;
+            border: 2px solid white;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .signup-container input[type="submit"]:hover {
+            background-color: white;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h1>SIGN UP</h1>
+        <form>
+            <label for="fullname">Full Name :</label>
+            <input type="text" id="fullname" name="fullname">
+            <label for="email">E-Mail :</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password :</label>
+            <input type="password" id="password" name="password">
+            <label for="confirm-password">Confirm Password :</label>
+            <input type="password" id="confirm-password" name="confirm-password">
+            <input type="submit" value="sign up">
+        </form>
+    </div>
+</body>
+</html>
